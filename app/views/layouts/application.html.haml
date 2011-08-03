@@ -1,0 +1,17 @@
+!!!
+%html
+%head
+  %title Man Evolution
+  = stylesheet_link_tag :all
+  = javascript_include_tag 'jquery-1.5.1.js', 'main.js'
+  = csrf_meta_tag
+%body
+  .header
+    .header_body
+      Man Evolution
+  .wrapper
+    = render :partial => 'layouts/global_links'
+    = yield
+  .footer
+    .content
+      Copyright by Man Evolution

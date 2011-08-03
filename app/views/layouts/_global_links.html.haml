@@ -1,6 +1,13 @@
 :javascript
-  var section = #{@test};
-  alert(section);
+  $(document).ready(function(){
+    var section = parseInt("#{@current_item}");
+
+    $('.links_container a').each(function(element){
+      $(this).removeClass();
+    });
+
+    $('.links_container a')[section].addClass('current_section');
+  });
 
 .main_links
   .links_container

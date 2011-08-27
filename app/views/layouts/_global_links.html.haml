@@ -1,22 +1,11 @@
-:javascript
-  $(document).ready(function(){
-    var section = parseInt("#{@current_item}");
-
-    $('.links_container a').each(function(element){
-      $(this).removeClass();
-    });
-
-    $('.links_container a').eq(section).addClass('current_section');
-  });
-
 .main_links
   .links_container
-    = link_to 'О сайте', faces_path
-    = link_to 'Ухоженость', groomings_path
-    = link_to 'Одежда', '#'
-    = link_to 'Тело', '#'
-    = link_to 'Мозг', '#'
-    = link_to 'Досуг', '#'
-    = link_to 'Работа', '#'
-    = link_to 'Общение', '#'
-    = link_to 'Об авторе', '#'
+    = menu_link 'О сайте', faces_path, 'faces'
+    = menu_link 'Ухоженость', groomings_path, 'grooming'
+    = menu_link 'Одежда', dress_path, 'dress'
+    = menu_link 'Тело', {:controller => 'body', :action => 'index'}, 'body'
+    = menu_link 'Мозг', '#'
+    = menu_link 'Досуг', '#'
+    = menu_link 'Работа', '#'
+    = menu_link 'Общение', '#'
+    = menu_link 'Об авторе', '#'

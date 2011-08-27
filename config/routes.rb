@@ -58,6 +58,9 @@ ManEvolution::Application.routes.draw do
 
   resources :faces
   resources :groomings
+  resources :dress
+  #resources :bodies
+  resources :body
 
   root :to => 'faces#index'
 end

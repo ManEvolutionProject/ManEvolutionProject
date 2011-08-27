@@ -1,5 +1,5 @@
 class FacesController < ApplicationController
-  @@current_section = 0
+  @@current_section = 'faces'
   before_filter :init
 
   def index

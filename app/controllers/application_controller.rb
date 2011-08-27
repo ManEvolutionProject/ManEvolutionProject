@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  @@current_section = 0
+  @@current_section = ""
 
   private
 

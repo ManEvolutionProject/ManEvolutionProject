@@ -1,44 +1,61 @@
 .header
+  background: none repeat scroll 0 0 #1E90FF
   color: #666666
-  height: 50px
   margin: auto
-  max-width: 1200px
+  max-width: 100%
   min-width: 1000px
 
   .header_body
-    width: 995px
     margin: auto
-    line-height: 50px
+    line-height: 60px
+    height: 60px
     text-align: center
+    color: white
+    font-size: 30px
 
 .wrapper
   height: auto !important
   margin: auto
-  max-width: 1200px
+  max-width: 100%
   min-height: 100%
   min-width: 1000px
+  background: none repeat scroll 0 0 #0A59A6
 
   .main_links
     width: 100%
-    height: 40px
+    height: 43px
 
     .links_container
-      width: 995px
-      margin: auto
+      ul
+        margin: 0 auto
+        padding: 0
+        list-style: none outside none
+
+        li
+          display: inline-block
+          float: left
 
       a
-        color: #666666
-        line-height: 40px
-        margin: 0 5px
+        background: none repeat scroll 0 0 #0A59A6
+        color: #1E90FF
+        border-top: 2px solid black
+        border-bottom: 2px solid black
+        border-left: 1px solid black
+        border-right: 1px solid black
+        display: inline-block
+        line-height: 30px
+        text-align: center
         text-decoration: none
         padding: 5px 15px
+        width: 107px
 
       a:hover
-        color: #999999
+        background: none repeat scroll 0 0 #1E90FF
+        color: #0A59A6
 
       a.current_section
-        background-color: #416389
-        color: #E8EFF7
+        background: none repeat scroll 0 0 #1E90FF
+        color: #0A59A6
 
       a.current_section:hover
         color: #ffffff
@@ -48,11 +65,24 @@
     min-height: 650px
 
     .sub_menu
+      background: none repeat scroll 0 0 #0A59A6
       float: left
       margin-left: -100%
       position: relative
       width: 250px
       height: 650px
+
+      a.side_link
+        background: none repeat scroll 0 0 #0A59A6
+        color: #1E90FF
+        width: 250px
+        display: inline-block
+        text-decoration: none
+        line-height: 30px
+
+      a.side_link:hover
+        background: none repeat scroll 0 0 #1E90FF
+        color: #0A59A6
 
     .text_content
       width: 100%
@@ -63,13 +93,14 @@
 
 
 .footer
-  color: blue
+  background: none repeat scroll 0 0 #1E90FF
+  color: white
   height: 20px
   width: 100%
   float: left
 
   .content
     text-align: center
-    max-width: 1200px
+    max-width: 100%
     min-width: 1000px
     margin: auto

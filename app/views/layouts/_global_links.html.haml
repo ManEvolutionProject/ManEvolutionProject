@@ -1,11 +1,21 @@
 .main_links
   .links_container
-    = menu_link 'О сайте', faces_path, 'faces'
-    = menu_link 'Ухоженость', groomings_path, 'grooming'
-    = menu_link 'Одежда', dress_path, 'dress'
-    = menu_link 'Тело', bodys_path, 'bodys'
-    = menu_link 'Мозг', minds_path, 'minds'
-    = menu_link 'Досуг', rests_path, 'rests'
-    = menu_link 'Работа', works_path, 'works'
-    = menu_link 'Общение', socializings_path, 'socializings'
-    = menu_link 'Об авторе', authors_path, 'authors'
+    %ul
+      %li
+        = menu_link 'О сайте', faces_path, 'faces'
+      %li
+        = menu_link 'Ухоженость', groomings_path, 'grooming'
+      %li
+        = menu_link 'Одежда', dress_path, 'dress'
+      %li
+        = menu_link 'Тело', bodys_path, 'bodys'
+      %li
+        = menu_link 'Мозг', minds_path, 'minds'
+      %li
+        = menu_link 'Досуг', rests_path, 'rests'
+      %li
+        = menu_link 'Работа', works_path, 'works'
+      %li
+        = menu_link 'Общение', socializings_path, 'socializings'
+      %li
+        = menu_link 'Об авторе', authors_path, 'authors'

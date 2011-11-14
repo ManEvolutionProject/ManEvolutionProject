@@ -1,0 +1,2 @@
+module SocializingHelper
+end

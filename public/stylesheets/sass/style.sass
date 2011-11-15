@@ -8,6 +8,8 @@ html, body
 body
   margin: 0 auto
   position: relative
+  color: white
+  font: 13px/1.5 verdana,sans-serif
 
 .header
   background: none repeat scroll 0 0 #1E90FF
@@ -51,30 +53,38 @@ body
           display: inline-block
           float: left
 
-      a
-        background: none repeat scroll 0 0 #0A59A6
-        color: #1E90FF
-        border-top: 2px solid black
-        border-bottom: 2px solid black
-        border-left: 1px solid black
-        border-right: 1px solid black
-        display: inline-block
-        line-height: 30px
-        text-align: center
-        text-decoration: none
-        padding: 5px 15px
-        width: 107px
+          span
+            display: inline-block
+            height: 11px
+            margin: 0 10px 0 5px
+            width: 11px
+            background: none repeat scroll 0 0 #83C2FF
 
-      a:hover
-        background: none repeat scroll 0 0 #1E90FF
-        color: #0A59A6
+          a
+            background: none repeat scroll 0 0 #0A59A6
+            color: #1E90FF
+            border-top: 2px solid black
+            border-bottom: 2px solid black
+            border-left: 1px solid black
+            border-right: 1px solid black
+            display: inline-block
+            line-height: 30px
+            text-align: center
+            text-decoration: none
+            padding: 5px 5px 5px 0
+            width: 135px
+            font-size: 15px
 
-      a.current_section
-        background: none repeat scroll 0 0 #1E90FF
-        color: #0A59A6
+          a:hover
+            background: none repeat scroll 0 0 #1E90FF
+            color: #0A59A6
 
-      a.current_section:hover
-        color: #ffffff
+          a.current_section
+            background: none repeat scroll 0 0 #1E90FF
+            color: #0A59A6
+
+          a.current_section:hover
+            color: #ffffff
 
   .main_content
     display: inline-block
@@ -93,10 +103,12 @@ body
       a.side_link
         background: none repeat scroll 0 0 #0A59A6
         color: #1E90FF
-        width: 230px
+        width: 190px
         display: inline-block
         text-decoration: none
         line-height: 30px
+        padding-left: 25px
+        font-size: 15px
 
       a.side_link:hover
         background: none repeat scroll 0 0 #1E90FF

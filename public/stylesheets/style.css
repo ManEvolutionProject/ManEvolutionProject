@@ -7,7 +7,9 @@ html, body {
 
 body {
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  color: white;
+  font: 13px/1.5 verdana, sans-serif; }
 
 .header {
   background: none repeat scroll 0 0 #1e90ff;
@@ -45,27 +47,34 @@ body {
       .wrapper .main_links .links_container ul li {
         display: inline-block;
         float: left; }
-    .wrapper .main_links .links_container a {
-      background: none repeat scroll 0 0 #0a59a6;
-      color: #1e90ff;
-      border-top: 2px solid black;
-      border-bottom: 2px solid black;
-      border-left: 1px solid black;
-      border-right: 1px solid black;
-      display: inline-block;
-      line-height: 30px;
-      text-align: center;
-      text-decoration: none;
-      padding: 5px 15px;
-      width: 107px; }
-    .wrapper .main_links .links_container a:hover {
-      background: none repeat scroll 0 0 #1e90ff;
-      color: #0a59a6; }
-    .wrapper .main_links .links_container a.current_section {
-      background: none repeat scroll 0 0 #1e90ff;
-      color: #0a59a6; }
-    .wrapper .main_links .links_container a.current_section:hover {
-      color: white; }
+        .wrapper .main_links .links_container ul li span {
+          display: inline-block;
+          height: 11px;
+          margin: 0 10px 0 5px;
+          width: 11px;
+          background: none repeat scroll 0 0 #83c2ff; }
+        .wrapper .main_links .links_container ul li a {
+          background: none repeat scroll 0 0 #0a59a6;
+          color: #1e90ff;
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          display: inline-block;
+          line-height: 30px;
+          text-align: center;
+          text-decoration: none;
+          padding: 5px 5px 5px 0;
+          width: 135px;
+          font-size: 15px; }
+        .wrapper .main_links .links_container ul li a:hover {
+          background: none repeat scroll 0 0 #1e90ff;
+          color: #0a59a6; }
+        .wrapper .main_links .links_container ul li a.current_section {
+          background: none repeat scroll 0 0 #1e90ff;
+          color: #0a59a6; }
+        .wrapper .main_links .links_container ul li a.current_section:hover {
+          color: white; }
   .wrapper .main_content {
     display: inline-block;
     width: 100%;
@@ -81,10 +90,12 @@ body {
       .wrapper .main_content .sub_menu a.side_link {
         background: none repeat scroll 0 0 #0a59a6;
         color: #1e90ff;
-        width: 230px;
+        width: 190px;
         display: inline-block;
         text-decoration: none;
-        line-height: 30px; }
+        line-height: 30px;
+        padding-left: 25px;
+        font-size: 15px; }
       .wrapper .main_content .sub_menu a.side_link:hover {
         background: none repeat scroll 0 0 #1e90ff;
         color: #0a59a6; }

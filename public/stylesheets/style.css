@@ -1,28 +1,43 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  margin: 0 auto;
+  position: relative; }
+
 .header {
   background: none repeat scroll 0 0 #1e90ff;
   color: #666666;
-  margin: 0 auto;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
-  display: inline-block;
-  float: left; }
+  z-index: 1000;
+  line-height: 60px;
+  height: 60px; }
   .header .header_body {
-    margin: auto;
-    line-height: 60px;
-    height: 60px;
     text-align: center;
     color: white;
     font-size: 30px; }
 
 .wrapper {
-  margin: 0 auto;
-  width: 100%;
   background: none repeat scroll 0 0 #0a59a6;
-  display: inline-block;
-  float: left;
-  padding-bottom: 20px; }
+  height: auto !important;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
   .wrapper .main_links {
+    display: inline-block;
+    float: left;
     width: 100%;
-    height: 43px; }
+    height: 43px;
+    padding-top: 60px; }
     .wrapper .main_links .links_container ul {
       margin: 0 auto;
       padding: 0;
@@ -52,6 +67,9 @@
     .wrapper .main_links .links_container a.current_section:hover {
       color: white; }
   .wrapper .main_content {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 40px;
     margin-top: 20px; }
     .wrapper .main_content .sub_menu {
       background: none repeat scroll 0 0 #0a59a6;
@@ -74,14 +92,16 @@
       width: 100%;
       float: left; }
       .wrapper .main_content .text_content .article {
-        padding: 0 0 0 250px; }
+        padding: 0 20px 0 250px; }
 
 .footer {
   background: none repeat scroll 0 0 #1e90ff;
   color: white;
   height: 20px;
+  margin-top: -20px;
+  position: relative;
   width: 100%;
-  display: inline-block; }
+  z-index: 1000; }
   .footer .content {
     text-align: center;
     width: 100%;

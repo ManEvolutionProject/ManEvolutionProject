@@ -78,6 +78,17 @@ ManEvolution::Application.routes.draw do
   match 'bodys/training_program' => 'bodys#training_program'
   match 'bodys/steroids' => 'bodys#steroids'
 
+  match 'minds' => 'minds#literature'
+  match 'minds/literature' => 'minds#literature'
+  match 'minds/philosophy' => 'minds#philosophy'
+  match 'minds/faith' => 'minds#faith'
+  match 'minds/articles' => 'minds#articles'
+  match 'minds/positivity' => 'minds#positivity'
+  match 'minds/metamessage' => 'minds#metamessage'
+  match 'minds/discipline' => 'minds#discipline'
+  match 'minds/other_people' => 'minds#other_people'
+  match 'minds/soul' => 'minds#soul'
+
   resources :faces
   resources :groomings
   resources :dress

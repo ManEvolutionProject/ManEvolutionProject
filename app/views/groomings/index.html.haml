@@ -16,10 +16,18 @@
       Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming
       Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming Grooming
   .sub_menu
-    = link_to("Уход за телом", '#', {:class => 'side_link'})
-    = link_to("Уход за волосами", '#', {:class => 'side_link'})
-    = link_to("Уход за ногтями", '#', {:class => 'side_link'})
-    = link_to("Уход за руками", '#', {:class => 'side_link'})
-    = link_to("Уход за лицом", '#', {:class => 'side_link'})
-    = link_to("Тренировка голоса", '#', {:class => 'side_link'})
-    = link_to("Выработка походки", '#', {:class => 'side_link'})
+    %ul
+      %li
+        = sub_menu_link("Уход за телом", "/groomings/body_care", "")
+      %li
+        = sub_menu_link("Уход за волосами", "/groomings/heir_care", "")
+      %li
+        = sub_menu_link("Уход за ногтями", "/groomings/nail_care", "")
+      %li
+        = sub_menu_link("Уход за руками", "/groomings/hend_care", "")
+      %li
+        = sub_menu_link("Уход за лицом", "/groomings/face_care", "")
+      %li
+        = sub_menu_link("Тренировка голоса", "/groomings/vote_traning", "")
+      %li
+        = sub_menu_link("Выработка походки", "/groomings/walk_traning", "")

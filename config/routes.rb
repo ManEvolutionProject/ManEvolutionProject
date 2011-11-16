@@ -56,6 +56,28 @@ ManEvolution::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
 
+  match 'groomings' => 'groomings#body_care'
+  match 'groomings/body_care' => 'groomings#body_care'
+  match 'groomings/heir_care' => 'groomings#heir_care'
+  match 'groomings/nail_care' => 'groomings#nail_care'
+  match 'groomings/hend_care' => 'groomings#hend_care'
+  match 'groomings/face_care' => 'groomings#face_care'
+  match 'groomings/vote_training' => 'groomings#vote_training'
+  match 'groomings/walk_training' => 'groomings#walk_training'
+
+  match 'dress' => 'dress#shoes'
+  match 'dress/shoes' => 'dress#shoes'
+  match 'dress/pants' => 'dress#pants'
+  match 'dress/shirts' => 'dress#shirts'
+  match 'dress/linen' => 'dress#linen'
+  match 'dress/socks' => 'dress#socks'
+
+  match 'bodys' => 'bodys#gym'
+  match 'bodys/gym' => 'bodys#gym'
+  match 'bodys/diet' => 'bodys#diet'
+  match 'bodys/training_program' => 'bodys#training_program'
+  match 'bodys/steroids' => 'bodys#steroids'
+
   resources :faces
   resources :groomings
   resources :dress

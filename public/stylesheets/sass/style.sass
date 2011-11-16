@@ -97,28 +97,54 @@ body
       margin-left: -100%
       position: relative
       width: 230px
-      padding-left: 20px
+      padding-left: 15px
 
-      a.side_link
-        background: none repeat scroll 0 0 #0A59A6
-        color: #1E90FF
-        width: 190px
-        display: inline-block
-        text-decoration: none
-        line-height: 30px
-        padding-left: 25px
-        font-size: 15px
+      ul
+        list-style: none outside none
+        padding: 0
+        margin: 0 auto
 
-      a.side_link:hover
-        background: none repeat scroll 0 0 #1E90FF
-        color: #0A59A6
+        li
+          display: inline-block
+          float: left
+          width: 100%
+
+          span
+            background: none repeat scroll 0 0 #83C2FF
+            display: inline-block
+            height: 9px
+            margin: 0 10px 0 10px
+            width: 9px
+
+          a
+            width: 270px
+            text-decoration: none
+            line-height: 30px
+            font-size: 15px
+            display: block
+
+          a.side_link
+            background: none repeat scroll 0 0 #0A59A6
+            color: #1E90FF
+
+          a.side_link:hover
+            background: none repeat scroll 0 0 #1E90FF
+            color: #0A59A6
+
+          a.current_side_link
+            background: none repeat scroll 0 0 #1E90FF
+            color: #0A59A6
+
+          a.current_side_link:hover
+            background: none repeat scroll 0 0 #1E90FF
+            color: #0A59A6
 
     .text_content
       width: 100%
       float: left
 
       .article
-        padding: 0 20px 0 250px
+        padding: 0 20px 0 290px
 
 .footer
   background: none repeat scroll 0 0 #1E90FF

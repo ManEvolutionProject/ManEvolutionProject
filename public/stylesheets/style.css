@@ -85,24 +85,44 @@ body {
       margin-left: -100%;
       position: relative;
       width: 230px;
-      padding-left: 20px; }
-      .wrapper .main_content .sub_menu a.side_link {
-        background: none repeat scroll 0 0 #0a59a6;
-        color: #1e90ff;
-        width: 190px;
-        display: inline-block;
-        text-decoration: none;
-        line-height: 30px;
-        padding-left: 25px;
-        font-size: 15px; }
-      .wrapper .main_content .sub_menu a.side_link:hover {
-        background: none repeat scroll 0 0 #1e90ff;
-        color: #0a59a6; }
+      padding-left: 15px; }
+      .wrapper .main_content .sub_menu ul {
+        list-style: none outside none;
+        padding: 0;
+        margin: 0 auto; }
+        .wrapper .main_content .sub_menu ul li {
+          display: inline-block;
+          float: left;
+          width: 100%; }
+          .wrapper .main_content .sub_menu ul li span {
+            background: none repeat scroll 0 0 #83c2ff;
+            display: inline-block;
+            height: 9px;
+            margin: 0 10px 0 10px;
+            width: 9px; }
+          .wrapper .main_content .sub_menu ul li a {
+            width: 270px;
+            text-decoration: none;
+            line-height: 30px;
+            font-size: 15px;
+            display: block; }
+          .wrapper .main_content .sub_menu ul li a.side_link {
+            background: none repeat scroll 0 0 #0a59a6;
+            color: #1e90ff; }
+          .wrapper .main_content .sub_menu ul li a.side_link:hover {
+            background: none repeat scroll 0 0 #1e90ff;
+            color: #0a59a6; }
+          .wrapper .main_content .sub_menu ul li a.current_side_link {
+            background: none repeat scroll 0 0 #1e90ff;
+            color: #0a59a6; }
+          .wrapper .main_content .sub_menu ul li a.current_side_link:hover {
+            background: none repeat scroll 0 0 #1e90ff;
+            color: #0a59a6; }
     .wrapper .main_content .text_content {
       width: 100%;
       float: left; }
       .wrapper .main_content .text_content .article {
-        padding: 0 20px 0 250px; }
+        padding: 0 20px 0 290px; }
 
 .footer {
   background: none repeat scroll 0 0 #1e90ff;

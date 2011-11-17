@@ -98,6 +98,24 @@ ManEvolution::Application.routes.draw do
   match 'rests/beverages' => 'rests#beverages'
   match 'rests/roller' => 'rests#roller'
 
+  match 'works' => 'works#generally'
+  match 'works/generally' => 'works#generally'
+  match 'works/skill' => 'works#skill'
+  match 'works/wish' => 'works#wish'
+  match 'works/inflexibility' => 'works#inflexibility'
+  match 'works/persistence' => 'works#persistence'
+  match 'works/balance' => 'works#balance'
+
+  match 'socializings' => 'socializings#themes'
+  match 'socializings/themes' => 'socializings#themes'
+  match 'socializings/street' => 'socializings#street'
+  match 'socializings/fear' => 'socializings#fear'
+  match 'socializings/talk' => 'socializings#talk'
+  match 'socializings/taking' => 'socializings#taking'
+  match 'socializings/date' => 'socializings#date'
+  match 'socializings/further' => 'socializings#further'
+  match 'socializings/why_all_this' => 'socializings#why_all_this'
+
   resources :faces
   resources :groomings
   resources :dress

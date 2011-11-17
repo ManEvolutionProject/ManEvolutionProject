@@ -89,6 +89,15 @@ ManEvolution::Application.routes.draw do
   match 'minds/other_people' => 'minds#other_people'
   match 'minds/soul' => 'minds#soul'
 
+  match 'rests' => 'rests#places'
+  match 'rests/places' => 'rests#places'
+  match 'rests/entertainment' => 'rests#entertainment'
+  match 'rests/cocktail' => 'rests#cocktail'
+  match 'rests/hookah' => 'rests#hookah'
+  match 'rests/smoking' => 'rests#smoking'
+  match 'rests/beverages' => 'rests#beverages'
+  match 'rests/roller' => 'rests#roller'
+
   resources :faces
   resources :groomings
   resources :dress

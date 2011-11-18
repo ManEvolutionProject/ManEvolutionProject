@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   position: relative;
   color: white;
-  font: 13px/1.5 verdana, sans-serif;
+  font: 13px/1.5 helvetica, arial, freesans, clean, sans-serif;
   min-width: 1200px; }
 
 .header {
@@ -67,7 +67,8 @@ body {
           text-decoration: none;
           padding: 3px;
           width: 100%;
-          font-size: 15px; }
+          font-size: 17px;
+          font-family: georgia, palatino; }
         .wrapper .main_links .links_container ul li a:hover {
           background: none repeat scroll 0 0 #1e90ff;
           color: #0a59a6; }
@@ -104,8 +105,9 @@ body {
             width: 100%;
             text-decoration: none;
             line-height: 30px;
-            font-size: 14px;
-            display: block; }
+            font-size: 16px;
+            display: block;
+            font-family: georgia, palatino; }
           .wrapper .main_content .sub_menu ul li a.side_link {
             background: none repeat scroll 0 0 #0a59a6;
             color: #1e90ff; }

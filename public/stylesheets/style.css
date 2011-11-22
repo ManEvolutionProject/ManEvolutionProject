@@ -70,7 +70,7 @@ body {
           font-size: 17px;
           font-family: georgia, palatino; }
         .wrapper .main_links .links_container ul li a:hover {
-          background: none repeat scroll 0 0 #56acff;
+          background: none repeat scroll 0 0 #1e90ff;
           color: #0a59a6; }
         .wrapper .main_links .links_container ul li a.current_section {
           background: none repeat scroll 0 0 #1e90ff;

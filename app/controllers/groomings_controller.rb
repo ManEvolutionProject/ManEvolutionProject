@@ -1,5 +1,5 @@
 class GroomingsController < ApplicationController
-  @@current_section = 'grooming'
+  add_current_section 'grooming'
   before_filter :init
 
   def index

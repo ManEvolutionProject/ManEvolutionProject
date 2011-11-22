@@ -1,5 +1,5 @@
 class SocializingsController < ApplicationController
-  @@current_section = 'socializings'
+  add_current_section 'socializings'
   before_filter :init
 
   def index

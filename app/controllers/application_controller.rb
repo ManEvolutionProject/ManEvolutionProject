@@ -1,11 +1,19 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  @@current_section = ""
+
+  protected
+  def self.add_current_section section
+    class_eval %{
+            def get_current_section
+              "#{section}"
+            end
+          }, __FILE__, __LINE__
+  end
 
   private
 
   def init
-    puts @@current_section
-    @current_item = @@current_section
+    puts get_current_section
+    @current_item = get_current_section
   end
 end

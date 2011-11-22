@@ -1,5 +1,5 @@
 class AboutWorksController < ApplicationController
-  @@current_section = 'about_works'
+  add_current_section 'about_works'
   before_filter :init
 
   def index

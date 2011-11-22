@@ -13,7 +13,6 @@ class ApplicationController < ActionController::Base
   private
 
   def init
-    puts get_current_section
     @current_item = get_current_section
   end
 end

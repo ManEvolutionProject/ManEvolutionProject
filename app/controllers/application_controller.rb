@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
   private
 
   def init
-    puts @@current_section
     @current_item = @@current_section
   end
 end

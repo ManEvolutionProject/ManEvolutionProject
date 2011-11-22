@@ -5,5 +5,6 @@ gem 'bundler'
 gem 'rails', '3.0.4'
 gem 'haml', '~> 3.0.25'
 gem 'sass'
+gem 'heroku'
 
 gem "rspec-rails", ">= 2.0.0"

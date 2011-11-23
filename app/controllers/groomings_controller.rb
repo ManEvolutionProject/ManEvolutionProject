@@ -14,10 +14,6 @@ class GroomingsController < ApplicationController
 
   end
 
-  def nail_care
-
-  end
-
   def hend_care
 
   end

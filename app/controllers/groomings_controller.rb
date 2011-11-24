@@ -15,7 +15,7 @@ class GroomingsController < ApplicationController
   end
 
 =begin
-  def hend_care_paste
+  def hand_care_paste
     @hand = Articles.new
 
     @hand.title = "Hand care"
@@ -24,7 +24,7 @@ class GroomingsController < ApplicationController
   end
 =end
 
-  def hend_care
+  def hand_care
     hand = Articles.where(:title => 'Hand care')
     @article_text = hand.first.article_text
   end

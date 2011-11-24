@@ -5,7 +5,7 @@ ManEvolution::Application.routes.draw do
   match 'groomings/body_care' => 'groomings#body_care'
   match 'groomings/heir_care' => 'groomings#heir_care'
   match 'groomings/hend_care' => 'groomings#hend_care'
-  match 'groomings/hend_care_paste' => 'groomings#hend_care_paste'
+  #match 'groomings/hend_care_paste' => 'groomings#hend_care_paste'
   match 'groomings/face_care' => 'groomings#face_care'
   match 'groomings/vote_training' => 'groomings#vote_training'
   match 'groomings/walk_training' => 'groomings#walk_training'

@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(:version => 20111123140704) do
 
   create_table "articles", :force => true do |t|
     t.string "title"
-    t.string "article_text"
+    t.text   "article_text"
   end
 
 end

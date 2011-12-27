@@ -10,11 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111123140704) do
+ActiveRecord::Schema.define(:version => 20111227141702) do
 
   create_table "articles", :force => true do |t|
     t.string "title"
     t.text   "article_text"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string "login"
+    t.string "password"
   end
 
 end

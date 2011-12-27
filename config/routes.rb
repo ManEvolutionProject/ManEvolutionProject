@@ -61,6 +61,8 @@ ManEvolution::Application.routes.draw do
   match 'socializings/further' => 'socializings#further'
   match 'socializings/why_all_this' => 'socializings#why_all_this'
 
+  match 'logins/login_check' => 'logins#login_check'
+
   resources :faces
   resources :groomings
   resources :dress
@@ -70,6 +72,8 @@ ManEvolution::Application.routes.draw do
   resources :about_works
   resources :socializings
   resources :authors
+  resources :logins
+  resources :administrations
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

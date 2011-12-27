@@ -1,0 +1,5 @@
+#central_frame
+  = form_for 'user', :url => {:action => 'login_check'} do |f|
+    = f.text_field :login
+    = f.password_field :password
+    = f.submit "Login"

@@ -12,6 +12,26 @@ body {
   font: 13px/1.5 helvetica, arial, freesans, clean, sans-serif;
   min-width: 1200px; }
 
+.login_wrapper {
+  background: none repeat scroll 0 0 #0a59a6;
+  height: auto !important;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  .login_wrapper #central_frame {
+    width: 260px;
+    margin: 300px auto; }
+    .login_wrapper #central_frame #user_login, .login_wrapper #central_frame #user_password {
+      width: 250px;
+      display: inline-block;
+      float: left;
+      margin-bottom: 5px; }
+    .login_wrapper #central_frame #user_submit {
+      display: inline-block;
+      margin-left: 100px; }
+
 .header {
   background: none repeat scroll 0 0 #1e90ff;
   color: #666666;
@@ -48,7 +68,7 @@ body {
       .wrapper .main_links .links_container ul li {
         display: inline-block;
         float: left;
-        width: 11%; }
+        width: 11.1%; }
         .wrapper .main_links .links_container ul li span {
           display: inline-block;
           height: 10px;
